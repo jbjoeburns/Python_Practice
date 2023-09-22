@@ -71,6 +71,8 @@ with urllib.request.urlopen("http://jsonplaceholder.typicode.com/todos/1") as ur
     print(data) 
 ```
 
+## yaml
+
 Can also convert json into other filetypes like yaml
 
 For yaml do this:
@@ -85,3 +87,12 @@ Then need to write variable to file doing this:
 ```
 
 Same logic as opening/writing/closing files I did with pandas!
+
+and to convert back you can do: 
+`output = json.dumps(source_content)`
+and write variable to file again like above...
+
+To open yaml files you can use:
+`yaml.safe_load(filename)`
+
+For every command you can use with json, there is usually a yaml equivalent. Google is your friend!
