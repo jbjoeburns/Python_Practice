@@ -31,4 +31,4 @@ Python is a good language for scripting, which is why its so popular in devops.
 
 Programs need to be compiled before they're ran so generally run faster
 
-Scripts are interpreted (translated when ran) 
+Scripts are interpreted (translated when ran), and are typically smaller and used for automating tasks

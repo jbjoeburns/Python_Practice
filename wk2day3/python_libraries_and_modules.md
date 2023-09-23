@@ -2,7 +2,7 @@
 
 Code and functions that are already written, that we can instead download and use in our code.
 
-***Module***: Single file within a library.
+***Module***: Single file within a library, consisting of a collection of functions, classes and variables etc... That you can bring into your code so we dont need to write them, saving time.
 
 ***Library***: Collection of modules. Installed with pip (python package manager).
 
