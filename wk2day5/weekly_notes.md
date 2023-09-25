@@ -29,7 +29,8 @@ Slicing
 - `Variable[x:y]`
 - Where x is where the sliced sting starts from
 - And y is where the sliced string ends
-- So 3:6 would start at the 3rd character then end at the 6th (for “Hello world!” this would be “lo”)
+- So 3:6 would start at the 3rd character then end at the 5th (for “Hello world!” this would be “lo”)
+- `txt[2:5]` gives from index 2 to 4
 - Can use negatives
 - `Variable[z]` would give single character, where z is the index
 
@@ -46,8 +47,8 @@ Count
 
 Lower and capitalize
 - Changes case
-  -	`variable.lower(“WORD”)` gives you “word”
-  -	`variable.capitalize(“word”)` gives you “WORD”
+  -	`variable.lower()` gives you “word”
+  -	`variable.capitalize()` gives you “WORD” (can also use upper)
 
 f-strings
 - formatted stringes
@@ -88,6 +89,7 @@ Lists
 tuples
 - Like lists but immutable
   -	`tupleExample = (“bread”, “eggs”, “milk”)`
+- immu-***TUPLE***
 
 dictionaries
 - key value pairs
@@ -97,6 +99,8 @@ dictionaries
 “name": "Luke”,
 }`
 - Can include lists as values
+- to update use car["colour"] = "red"
+  - also same for adding new entries
 
 Sets
 - Like lists, but random order
@@ -104,3 +108,6 @@ Sets
 - Use curly brackets but no keys
 - `setExample = {“bread”, “eggs”, “milk”}`
 - mutable
+- order not ***SET***
+
+need to use functions
